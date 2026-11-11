@@ -8,3 +8,19 @@ docker compose up
 ```
 
 puis accéder à la plateforme : http://localhost:9001
+
+
+## Correctifs de sécurité
+
+Suite à l'audit forensic réalisé par l'équipe CERTAIN, huit vulnérabilités ont été identifiées sur ce dépôt. Le code présent sur la branche `main` correspond à l'état vulnérable analysé lors de l'audit.
+
+**Les correctifs sont disponibles sur la branche `corrigé`.**
+
+Pour récupérer la version corrigée :
+```bash
+git checkout corrigé
+docker compose up
+```
+
+
+Le détail de chaque vulnérabilité et de son correctif est disponible dans le rapport d'audit de l'équipe CERTAIN.
