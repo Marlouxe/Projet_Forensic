@@ -14,7 +14,7 @@ puis accéder à la plateforme : http://localhost:9001
 
 Suite à l'audit forensic réalisé par l'équipe CERTAIN, huit vulnérabilités ont été identifiées sur ce dépôt. Le code présent sur la branche `main` correspond à l'état vulnérable analysé lors de l'audit.
 
-**Les correctifs sont disponibles sur la branche `corrigé`.**
+**Les correctifs sont disponibles sur la branche `corrigée`.**
 
 Pour récupérer la version corrigée :
 ```bash
