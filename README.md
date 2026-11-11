@@ -18,7 +18,7 @@ Suite à l'audit forensic réalisé par l'équipe CERTAIN, huit vulnérabilités
 
 Pour récupérer la version corrigée :
 ```bash
-git checkout corrigé
+git checkout corrigée
 docker compose up
 ```
 
