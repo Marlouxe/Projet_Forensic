@@ -32,6 +32,10 @@ class Room(db.Model):
         }
 
         if self.host_user:
-            output["host"] = self.host_user.to_dict()
+            # On n'expose plus que le nom de l'hôte, pas son e-mail (évite D5)
+            output["host"] = {
+                "id": self.host_user.id,
+                "name": self.host_user.name,
+            }
 
         return output
